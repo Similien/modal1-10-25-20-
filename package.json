@@ -1,0 +1,17 @@
+{
+  "name": "navs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass ./dist/scss/main.scss ./dist/css/style.css",
+    "watch": "nodemon -e scss -x \"npm run sass\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.3"
+  }
+}

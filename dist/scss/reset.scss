@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    // box-sizing - padding, borders don't add width to the element 
+    box-sizing: border-box;
+}
+body{
+    // body for font family
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.1rem;
+}
